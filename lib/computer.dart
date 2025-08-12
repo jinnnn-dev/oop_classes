@@ -1,10 +1,10 @@
-class Book {
-  String title;
-  String author;
+class Computer {
+  String model;
+  int year;
 
-  Book(this.title, this.author);
+  Computer(this.model, this.year);
 
   void describe() {
-    print("The book '$title' is written by $author.");
+    print('$model, made in $year');
   }
 }
