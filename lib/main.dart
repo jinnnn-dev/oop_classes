@@ -1,15 +1,14 @@
 import 'book.dart';
-import 'computer.dart';
-import 'person.dart';
-
+import 'author.dart';
 void main() {
   Book myBook = Book("1984", "George Orwell");
   myBook.describe();
 
-  var computer = Computer('Acer Aspire', 2024);
-  computer.describe();
+void main() {
+  Author author1 = Author('Jose Rizal', 'Filipino');
+  Author author2 = Author('J.K. Rowling', 'British');
 
-  var person = Person('Alice', 30);
-person.describe();
+  author1.displayAuthor();
+  author2.displayAuthor();
 }
-
+}
