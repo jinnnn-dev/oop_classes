@@ -1,6 +1,8 @@
 import 'book.dart';
 import 'author.dart';
 import 'publisher.dart';
+import 'genre.dart';
+
 void main() {
   Book myBook = Book("1984", "George Orwell");
   myBook.describe();
@@ -17,6 +19,10 @@ void main() {
   Publisher publisher1 = Publisher('Pearson', 'London');
   publisher1.displayPublisher();
 
+  void main() {
+  Genre genre1 = Genre('Fantasy', 'A genre with magical elements and imaginary worlds.');
+  genre1.displayGenre();
+}
 }  
 }
 }
